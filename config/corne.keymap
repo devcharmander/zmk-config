@@ -175,6 +175,20 @@
         };
     };
 
+    combos {
+        compatible = "zmk,combos";
+
+        left_bracket_bracep {
+            bindings = <&kp LEFT_BRACKET>;
+            key-positions = <7 8>;
+        };
+
+        right_bracket_brace {
+            bindings = <&kp RIGHT_BRACKET>;
+            key-positions = <8 9>;
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
