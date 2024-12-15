@@ -1,1 +1,1 @@
-![layout](img/corne.svg)
+![](img/corne.svg)
