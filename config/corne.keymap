@@ -187,6 +187,16 @@
             bindings = <&kp RIGHT_BRACKET>;
             key-positions = <8 9>;
         };
+
+        left_paranthesis {
+            bindings = <&kp LEFT_PARENTHESIS>;
+            key-positions = <19 20>;
+        };
+
+        right_parenthesis {
+            bindings = <&kp RIGHT_PARENTHESIS>;
+            key-positions = <20 21>;
+        };
     };
 
     keymap {
