@@ -27,9 +27,9 @@ layers:
   - ''
   - ''
   - Z
-  - {t: X, h: '$$mdi:apple-keyboard-option$$'}
-  - C
-  - V
+  - {t: X, h: Gui+X}
+  - {t: C, h: Gui+C}
+  - {t: V, h: Gui+V}
   - B
   - N
   - M
@@ -37,7 +37,7 @@ layers:
   - {t: ., h: '$$mdi:apple-keyboard-option$$'}
   - /
   - ''
-  - {t: Esc, h: Media}
+  - '&esc_caps'
   - {t: '$$mdi:keyboard-space$$', h: Nav}
   - {t: '$$mdi:keyboard-tab$$', h: Base}
   - {t: RET, h: Base}
@@ -51,9 +51,9 @@ layers:
   - '&u_to_U_BASE'
   - ''
   - AGAIN
-  - Sft+ INS
-  - Ctl+ INS
-  - Sft+ DEL
+  - Sft+INS
+  - Ctl+INS
+  - Sft+DEL
   - UNDO
   - ''
   - ''
@@ -123,7 +123,7 @@ layers:
   - {t: '$$mdi:bluetooth-connect$$', s: '&u_macro_u_bt_sel_2'}
   - {t: '$$mdi:bluetooth-connect$$', s: '&u_macro_u_bt_sel_3'}
   - ''
-  - {type: held}
+  - ''
   - ''
   - ''
   - STOP
