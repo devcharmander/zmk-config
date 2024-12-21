@@ -17,7 +17,7 @@ manifest:
     # zmk official
     - name: zmkfirmware
       url-base: https://github.com/zmkfirmware
-    - name: gpeye #new entry
+    - name: devcharmander #new entry
       url-base: https://github.com/devcharmnader #new entry
   projects:
     - name: zmk
