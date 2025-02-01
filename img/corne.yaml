@@ -34,7 +34,7 @@ layers:
   - N
   - M
   - '&comma_caps'
-  - {t: ., h: '$$mdi:apple-keyboard-option$$'}
+  - .
   - /
   - ''
   - {t: ESCAPE, h: Media}
