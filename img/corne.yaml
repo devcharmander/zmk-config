@@ -94,7 +94,7 @@ layers:
   - '&u_to_U_BASE'
   - ''
   - {t: '$$mdi:toggle-switch$$', h: '$$mdi:bluetooth$$', s: '$$mdi:keyboard$$'}
-  - RGB EFF
+  - {t: '$$mdi:bluetooth-connect$$', s: '&u_macro_u_bt_sel_4'}
   - $$tabler:brightness-down$$
   - $$tabler:brightness-up$$
   - {t: '$$mdi:led-on$$', s: '$$mdi:white-balance-sunny$$', type: sym_by_sym}
@@ -121,7 +121,7 @@ layers:
   - {t: '$$mdi:bluetooth-connect$$', s: '&u_macro_u_bt_sel_0'}
   - {t: '$$mdi:bluetooth-connect$$', s: '&u_macro_u_bt_sel_1'}
   - {t: '$$mdi:bluetooth-connect$$', s: '&u_macro_u_bt_sel_2'}
-  - {t: '$$mdi:bluetooth-connect$$', s: '&u_macro_u_bt_sel_4'}
+  - {t: '$$mdi:bluetooth-connect$$', s: '&u_macro_u_bt_sel_3'}
   - ''
   - {type: held}
   - ''
