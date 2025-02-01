@@ -33,11 +33,11 @@ layers:
   - B
   - N
   - M
-  - ','
+  - '&comma_caps'
   - {t: ., h: '$$mdi:apple-keyboard-option$$'}
   - /
   - ''
-  - '&esc_caps'
+  - {t: ESCAPE, h: Media}
   - {t: '$$mdi:keyboard-space$$', h: Nav}
   - {t: '$$mdi:keyboard-tab$$', h: Base}
   - {t: RET, h: Base}
@@ -93,7 +93,7 @@ layers:
   - ''
   - '&u_to_U_BASE'
   - ''
-  - {t: '$$mdi:toggle-switch$$', h: '$$mdi:led-on$$', s: '$$mdi:led-outline$$', type: toggle}
+  - {t: '$$mdi:toggle-switch$$', h: '$$mdi:bluetooth$$', s: '$$mdi:keyboard$$'}
   - RGB EFF
   - $$tabler:brightness-down$$
   - $$tabler:brightness-up$$
@@ -117,13 +117,13 @@ layers:
   - '&u_to_U_FUN'
   - '&u_to_U_MEDIA'
   - ''
-  - {t: '$$mdi:toggle-switch$$', h: '$$mdi:bluetooth$$', s: '$$mdi:keyboard$$'}
+  - {t: '$$mdi:bluetooth-settings$$', s: '$$mdi:close-thick$$', type: sym_sub_text}
   - {t: '$$mdi:bluetooth-connect$$', s: '&u_macro_u_bt_sel_0'}
   - {t: '$$mdi:bluetooth-connect$$', s: '&u_macro_u_bt_sel_1'}
   - {t: '$$mdi:bluetooth-connect$$', s: '&u_macro_u_bt_sel_2'}
-  - {t: '$$mdi:bluetooth-connect$$', s: '&u_macro_u_bt_sel_3'}
+  - {t: '$$mdi:bluetooth-connect$$', s: '&u_macro_u_bt_sel_4'}
   - ''
-  - ''
+  - {type: held}
   - ''
   - ''
   - STOP
