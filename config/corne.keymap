@@ -10,12 +10,12 @@
         u_mt: u_mt {
             compatible = "zmk,behavior-hold-tap";
             #binding-cells = <2>;
-            tapping-term-ms = <190>;
+            tapping-term-ms = <160>;
             flavor = "hold-preferred";
             bindings = <&kp>, <&kp>;
 
-            quick-tap-ms = <160>;
-            require-prior-idle-ms = <100>;
+            quick-tap-ms = <140>;
+            require-prior-idle-ms = <75>;
             hold-trigger-key-positions = <12 38 37 39 40 23 36 41>;
         };
 
