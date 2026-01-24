@@ -7,16 +7,16 @@
 
 / {
     behaviors {
-        u_mt: u_mt {
+        u_mt_left: u_mt_left {
             compatible = "zmk,behavior-hold-tap";
             #binding-cells = <2>;
-            tapping-term-ms = <200>;
-            flavor = "hold-preferred";
+            tapping-term-ms = <175>;
+            flavor = "balanced";
             bindings = <&kp>, <&kp>;
 
-            quick-tap-ms = <120>;
-            require-prior-idle-ms = <20>;
-            hold-trigger-key-positions = <12 38 37 39 40 23 36 41>;
+            quick-tap-ms = <135>;
+            require-prior-idle-ms = <100>;
+            hold-trigger-key-positions = <39 40 23 41 6 18 30 32 31 19 7 8 20 33 34 35 21 22 9 10 11>;
         };
 
         u_lt: u_lt {
@@ -132,6 +132,19 @@
             mods = <(MOD_LSFT|MOD_RSFT)>;
             label = "U_BT_SEL_4";
         };
+
+        u_mt_right: u_mt_right {
+            compatible = "zmk,behavior-hold-tap";
+            #binding-cells = <2>;
+            tapping-term-ms = <175>;
+            flavor = "balanced";
+            bindings = <&kp>, <&kp>;
+
+            quick-tap-ms = <135>;
+            require-prior-idle-ms = <100>;
+            hold-trigger-key-positions = <0 12 24 25 13 1 2 14 26 27 15 3 4 16 28 29 17 5 36 38 37>;
+            label = "U_MT_RIGHT";
+        };
     };
 
     macros {
@@ -222,10 +235,10 @@
         Base {
             display-name = "Base";
             bindings = <
-&none  &kp Q         &kp W          &kp E           &kp R          &kp T          &kp Y        &kp U          &kp I          &kp O         &kp P           &none
-&none  &u_mt LGUI A  &u_mt LALT S   &u_mt LCTRL D   &u_mt LSHFT F  &kp G          &kp H        &u_mt LSHFT J  &u_mt LCTRL K  &u_mt LALT L  &u_mt LGUI SQT  &none
-&none  &kp Z         &u_mt LG(X) X  &u_mt LG(C) C   &u_mt LG(V) V  &kp B          &kp N        &kp M          &comma_caps    &kp DOT       &kp SLASH       &none
-                                    &u_lt 2 ESCAPE  &u_lt 1 SPACE  &u_lt 0 TAB    &u_lt 0 RET  &u_lt 3 BSPC   &u_lt 4 DEL
+&none  &kp Q              &kp W               &kp E               &kp R               &kp T          &kp Y        &kp U                &kp I                &kp O               &kp P                 &none
+&none  &u_mt_left LGUI A  &u_mt_left LALT S   &u_mt_left LCTRL D  &u_mt_left LSHFT F  &kp G          &kp H        &u_mt_right LSHFT J  &u_mt_right LCTRL K  &u_mt_right LALT L  &u_mt_right LGUI SQT  &none
+&none  &kp Z              &u_mt_left LG(X) X  &u_mt_left LG(C) C  &u_mt_left LG(V) V  &kp B          &kp N        &kp M                &comma_caps          &kp DOT             &kp SLASH             &none
+                                              &u_lt 2 ESCAPE      &u_lt 1 SPACE       &u_lt 0 TAB    &u_lt 0 RET  &u_lt 3 BSPC         &u_lt 4 DEL
             >;
         };
 
